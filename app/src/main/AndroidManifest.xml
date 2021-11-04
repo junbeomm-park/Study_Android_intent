@@ -9,8 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Intent">
-        <activity android:name=".MainActivity"></activity>
-        <activity android:name=".LifeCycleTestActivity">
+        <activity android:name=".SecondActivity"></activity>
+        <activity android:name=".FirstActivity"></activity>
+        <activity android:name=".ReturnDataSecondActivity"></activity>
+        <activity android:name=".ReturnDataFirstActivity"></activity>
+        <activity android:name=".ExamSecondActivity"></activity>
+        <activity android:name=".ExamFirstActivity"></activity>
+        <activity android:name=".ReturnDataFirstActivity_Callback"></activity>
+        <activity android:name=".ExamFirstActivity_Callback">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
