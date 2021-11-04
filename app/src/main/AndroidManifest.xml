@@ -9,14 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Intent">
-        <activity android:name=".SecondActivity"></activity>
-        <activity android:name=".FirstActivity"></activity>
-        <activity android:name=".ReturnDataSecondActivity"></activity>
-        <activity android:name=".ReturnDataFirstActivity"></activity>
-        <activity android:name=".ExamSecondActivity"></activity>
-        <activity android:name=".ExamFirstActivity"></activity>
-        <activity android:name=".ReturnDataFirstActivity_Callback"></activity>
-        <activity android:name=".ExamFirstActivity_Callback">
+        <activity android:name=".ExamFirstActivity_Callback"></activity>
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".FirstActivity" />
+        <activity android:name=".ReturnDataSecondActivity" />
+        <activity android:name=".ReturnDataFirstActivity" />
+        <activity android:name=".ExamSecondActivity" />
+        <activity android:name=".ExamFirstActivity" />
+        <activity android:name=".ReturnDataFirstActivity_Callback" />
+        <activity android:name=".UseOtherApp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -24,5 +25,5 @@
             </intent-filter>
         </activity>
     </application>
-
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
 </manifest>
